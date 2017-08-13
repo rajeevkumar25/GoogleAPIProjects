@@ -9,8 +9,6 @@ from key import api_key
 google_api_key=api_key
 google_api_base_url='https://maps.googleapis.com/maps/api/place/textsearch/json?query='
 
-#sample_url='https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+pimple+gurav&key=AIzaSyC0Tz4QuJwRrTPdNF99KvUVkQc45kXi6o0'
-
 def getPlaces(apiurl):
     #print(apiurl)
     api_response=requests.get(apiurl)
