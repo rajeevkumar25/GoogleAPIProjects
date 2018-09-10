@@ -12,7 +12,7 @@ google_api_base_url='https://maps.googleapis.com/maps/api/place/textsearch/json?
 
 
 def getPlaces(apiurl):
-    #print(apiurl)
+    
     api_response=requests.get(apiurl)
     if api_response.status_code==200:
         api_response_json=api_response.json()
